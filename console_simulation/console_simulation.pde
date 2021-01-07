@@ -11,7 +11,8 @@ void setup(){
 void draw(){
   background(0);// set the background to black.
   fill(255);// set the color for the next instructions to white
-  text("Input text: "+new String(text_char), 10, 10);// display the string.
+  textSize(20);
+  text("Input text: "+new String(text_char, 0, text_len), 10, 20);// display the string.
 }
 
 void keyPressed() {
