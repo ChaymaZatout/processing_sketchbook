@@ -38,6 +38,7 @@ void draw(){
   
   
   // binarize img_bin:
+  img_bin.loadPixels();
   if(i< img_bin.height*img_bin.width){
     if(brightness(img_bin.pixels[i]) > threshold)
       img_bin.pixels[i]  = color(255);

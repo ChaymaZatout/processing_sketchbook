@@ -35,9 +35,11 @@ void draw(){
   textAlign(CENTER);// center text:
   textSize(28);
   text("Color components: ", width/2, 28);
+  fill(0);
+  textSize(16);
+  text("<Click to change the color>", width/2, 50);
   
   //text for components:
-  fill(0);
   textSize(50);
   text("=", (150+300)/2, height/4+25);
   text("+", (300+450)/2, height/4+25);
