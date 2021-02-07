@@ -66,8 +66,8 @@ class Taquin{
   }
   
   public Node go_up(){
-    int l_pos = this.curr_state.get_l_pos()-1; //<>//
-    Node n=null; //<>//
+    int l_pos = this.curr_state.get_l_pos()-1; //<>// //<>//
+    Node n=null; //<>// //<>//
     if(l_pos >= 0){
       n= new Node(this.curr_state.get_state(), this.curr_state, l_pos, this.curr_state.get_c_pos());
       n.set_element(n.element_at(l_pos, n.get_c_pos()),
@@ -75,7 +75,7 @@ class Taquin{
       n.set_element(this.free, n.get_l_pos(), n.get_c_pos());
     }
     return n;
-  } //<>//
+  } //<>// //<>//
   
   public Node go_down(){
     int l_pos = this.curr_state.get_l_pos()+1;
@@ -84,10 +84,10 @@ class Taquin{
       n= new Node(this.curr_state.get_state(), this.curr_state, l_pos, this.curr_state.get_c_pos());
       n.set_element(n.element_at(l_pos, n.get_c_pos()), 
                     this.curr_state.get_l_pos(), n.get_c_pos());
-      n.set_element(this.free, n.get_l_pos(), n.get_c_pos()); //<>//
+      n.set_element(this.free, n.get_l_pos(), n.get_c_pos()); //<>// //<>//
     }
     return n;
-  } //<>//
+  } //<>// //<>//
   
   public Node go_right(){
     int c_pos = this.curr_state.get_c_pos()+1;
@@ -96,13 +96,13 @@ class Taquin{
       n= new Node(this.curr_state.get_state(), this.curr_state, this.curr_state.get_l_pos(), c_pos);
       n.set_element(n.element_at(n.get_l_pos(), c_pos), 
                         n.get_l_pos(), this.curr_state.get_c_pos());
-      n.set_element(this.free, n.get_l_pos(), n.get_c_pos()); //<>//
+      n.set_element(this.free, n.get_l_pos(), n.get_c_pos()); //<>// //<>//
     }
     return n;
-  } //<>//
+  } //<>// //<>//
   
   public Node go_left(){
-    int c_pos = this.curr_state.get_c_pos()-1; //<>//
+    int c_pos = this.curr_state.get_c_pos()-1; //<>// //<>//
     Node n =null;
     if(c_pos>= 0){
       n= new Node(this.curr_state.get_state(), this.curr_state, this.curr_state.get_l_pos(), c_pos);
@@ -113,7 +113,7 @@ class Taquin{
   }
   
   private void compute_initial_pos(){
-    int i=0; //<>//
+    int i=0; //<>// //<>//
     int j=0;
     while(i< this.init_state.get_nb_rows() && j< this.init_state.get_nb_columns() &&
           this.init_state.element_at(i, j) != this.free){
@@ -122,8 +122,8 @@ class Taquin{
         j=0; i++;
       }
     }
-    this.init_state.set_l_pos(i); //<>//
-    this.init_state.set_c_pos(j); //<>//
+    this.init_state.set_l_pos(i); //<>// //<>//
+    this.init_state.set_c_pos(j); //<>// //<>//
   } 
   
   public int get_free(){

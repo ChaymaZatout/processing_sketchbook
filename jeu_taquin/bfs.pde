@@ -27,11 +27,11 @@ class BFS{
   }
   
   public void process(){
-    if(!achieved && !this.open.isEmpty()){ //<>//
+    if(!achieved && !this.open.isEmpty()){ //<>// //<>//
       this.taquin.set_curr_state(this.open.remove());
       this.closed.add(taquin.get_curr_state());
       this.successors = this.taquin.compute_successors();
-      for(Node s: successors){ //<>//
+      for(Node s: successors){ //<>// //<>//
         if(!this.taquin.is_objective(s) && !this.closed.contains(s)){
           this.open.add(s);
         }

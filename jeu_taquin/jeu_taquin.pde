@@ -7,6 +7,7 @@
       [] Implementing DBF,
       [] Implementing Uniform Cost,
       [] Implementing A*,
+      [] Implementing functions to initialize the objective,
 ***/
 
 // 3*3 taquin:
