@@ -1,6 +1,6 @@
 # MASTER: Visual Computing
 This reposiroty contains my different programs (sketches) for teaching. 
-I am the practical work assistant and I work with [Professor S. Larabi](http://perso.usthb.dz/~slarabi/accueil.html), the lecturer.  
+I am the practical work assistant and I work with [Professor S. Larabi](http://perso.usthb.dz/~slarabi/accueil.html), the lecturer and my thesis director.  
 In this repository, you will find:   
 ## Processing Examples:
 It contains some sketches to get started with processing.
