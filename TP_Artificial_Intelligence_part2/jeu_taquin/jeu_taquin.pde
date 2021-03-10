@@ -134,7 +134,7 @@ void draw_state(Node n, int step_x, int step_y){
         s= "X";
         fill(255,0,0);
       }
-      text(s, x + step_x*j, y + step_y*i);
+      text(s, x + step_x*j, y + step_y*i+ t_size/4);
     }
   }
 }
