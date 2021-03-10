@@ -27,20 +27,20 @@ class BFS{
   }
   
   public void process(){
-    if(!achieved && !this.open.isEmpty()){ //<>// //<>//
+    if(!achieved && !this.open.isEmpty()){ //<>//
       this.taquin.set_curr_state(this.open.remove());
       this.closed.add(taquin.get_curr_state());
       this.successors = this.taquin.compute_successors();
-      for(Node s: successors){ //<>// //<>//
-        if(!this.taquin.is_objective(s) && !this.closed.contains(s)){
-          this.open.add(s);
-        }
-        else if(this.taquin.is_objective(s)){
+      for(Node s: successors){ //<>//
+        if(this.taquin.is_objective(s)){
           this.taquin.set_curr_state(s);
           this.closed.add(s);
           this.achieved = true;
           this.path = this.taquin.path_to_obj();
         }
+        else if(!closed.contains(s) && !open.contains(s)){
+          this.open.add(s);
+        } 
       }
     }
     if(achieved) println("achieved");

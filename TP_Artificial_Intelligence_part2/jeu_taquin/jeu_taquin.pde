@@ -42,13 +42,13 @@ boolean initialization, solution_found;
 
 void setup(){
   // for each configuration:
-  //Taquin taquin_3= new Taquin(new Node(init_state_3), new Node(obj_state_3), 9);
-  //bfs= new BFS(taquin_3);
-  //int [][] to_d= init_state_3; // to change for each configuration.
+  Taquin taquin_3= new Taquin(new Node(init_state_3), new Node(obj_state_3), 9);
+  bfs= new BFS(taquin_3);
+  int [][] to_d= init_state_3; // to change for each configuration.
   
-  Taquin taquin_5= new Taquin(new Node(init_state_5), new Node(obj_state_5), -1);
-  bfs= new BFS(taquin_5);
-  int [][] to_d= init_state_5; // to change for each configuration.
+  //Taquin taquin_5= new Taquin(new Node(init_state_5), new Node(obj_state_5), -1);
+  //bfs= new BFS(taquin_5);
+  //int [][] to_d= init_state_5; // to change for each configuration.
   
   //Taquin taquin_32= new Taquin(new Node(init_state_32), new Node(obj_state_32), -1);
   //bfs= new BFS(taquin_32);
@@ -58,7 +58,7 @@ void setup(){
   size(1200, 600);
   taquin_h= to_d.length; 
   taquin_w= to_d[0].length;
-  t_size= 1500/(taquin_w*taquin_h);
+  t_size= 1000/(taquin_w*taquin_h);
   step_x= width / taquin_w;
   step_y= height/ taquin_h;
   initialization=false;
