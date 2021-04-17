@@ -1,7 +1,7 @@
 // Zatout Chayma
 // https://github.com/ChaymaZatout
 // generate a configuration for path finding. You can improve this sketch by creating env with a given size.
-// You can change the robote initial position and the objective position by dragging them.
+// You can change the robot initial position and the objective position by dragging them.
 
 int [][]env= {{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
         {1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,1},
