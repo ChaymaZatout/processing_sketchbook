@@ -13,7 +13,8 @@ It contains sketches that can be used as reference in order to accomplish the pr
 
 
 ## Students' Work:
-Check amazing works of brilliant students:  
+Checkout amazing works of brilliant students:  
 - [Raouf Mouffok](https://github.com/rafmkyrie?tab=repositories): [Communication Multimedia](https://github.com/rafmkyrie/MIV-TP-CM), [Artificial Intelligence](https://github.com/rafmkyrie/MIV-TP-IA), [AI Project](https://github.com/rafmkyrie/Tic-Tac-Toe).
+- [Med Salim Aissi](https://github.com/sal1717lim/Master-Iv): [Communication Multimedia](https://github.com/sal1717lim/Master-Iv/tree/main/multimedia), [Artificial Intelligence](https://github.com/sal1717lim/Master-Iv).
 - [Yassine Bacha](https://github.com/4Nuster?tab=repositories): [Communication Multimedia](https://github.com/4Nuster/TPs-IA-CM/tree/main/IA), [Artificial Intelligence](https://github.com/4Nuster/TPs-IA-CM/tree/main/CM).
 - [Raouf Chiboub](): [Communication Multimedia](https://github.com/8Raouf24/Tp-mul), [Artificial Intelligence Part1](https://github.com/8Raouf24/MIV/tree/main/S1/AI), [Artificial Intelligence Part2](https://github.com/8Raouf24/MIV_ML), [AI Project](https://github.com/8Raouf24/MIV/tree/main/S1/Tic%20Tac%20Toe%20project).
